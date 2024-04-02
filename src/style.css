@@ -1,0 +1,46 @@
+/* Foundation */
+
+:root {
+  --bg-inner: rgb(74, 74, 74);
+  --bg-outer: rgb(33, 33, 33);
+  --fg: rgb(229, 229, 229);
+
+  box-sizing: border-box;
+
+  font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+  font-size: 10vw;
+  font-weight: 500;
+
+  background: radial-gradient(circle at bottom, var(--bg-inner), var(--bg-outer));
+  color: var(--fg);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (prefers-color-scheme: light) {
+  :root {
+    --bg-inner: rgb(236, 236, 236);
+    --bg-outer: rgb(203, 203, 203);
+    --fg: rgb(33, 33, 33);
+  }
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+
+  block-size: 100vh;
+  block-size: 100svh;
+  block-size: 100dvh;
+}
+
+time {
+  font-variant-numeric: tabular-nums;
+}

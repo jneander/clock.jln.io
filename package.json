@@ -1,0 +1,21 @@
+{
+  "name": "io.jln.clock",
+  "type": "module",
+  "author": {
+    "name": "Jeremy Neander",
+    "email": "jeremy.neander@gmail.com"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4"
+  }
+}
